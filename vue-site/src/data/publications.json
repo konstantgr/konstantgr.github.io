@@ -1,0 +1,169 @@
+[
+  {
+    "id": "1",
+    "date": "2025",
+    "title": "Diffusion-Based Electromagnetic Inverse Design of Scattering Structured Media",
+    "authors": "M Tsukerman, K Grotov, P Ginzburg",
+    "venue": "NeurIPS 2025, Machine Learning and the Physical Sciences Workshop",
+    "link": "https://arxiv.org/abs/2511.05357"
+  },
+  {
+    "id": "2",
+    "date": "2025",
+    "title": "PIPer: On-Device Environment Setup via Online Reinforcement Learning",
+    "authors": "A Kovrigin, A Eliseeva, K Grotov, E Bogomolov, Y Zharov",
+    "venue": "NeurIPS 2025, Deep Learning For Code in the Agentic Era Workshop",
+    "link": "https://arxiv.org/abs/2509.25455",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "date": "2025",
+    "title": "Adaptive Metasurface for Complex Inverse-design Scattering Control",
+    "authors": "M Tsukerman, K Grotov, I Yusupov, P Ginzburg",
+    "venue": "2025 Nineteenth International Congress on Artificial Materials for Novel Wave Phenomena",
+    "link": ""
+  },
+  {
+    "id": "4",
+    "date": "2025",
+    "title": "Observing Fine-Grained Changes in Jupyter Notebooks During Development Time",
+    "authors": "S Titov, K Grotov, C Sarasua, Y Golubev, D Ramasamy, A Bacchelli, et al.",
+    "venue": "arXiv preprint arXiv:2507.15831",
+    "link": "https://arxiv.org/abs/2507.15831"
+  },
+  {
+    "id": "5",
+    "date": "2025",
+    "title": "Evolving the Computational Notebook: A Two-Dimensional Canvas for Enhanced Human-AI Interaction",
+    "authors": "K Grotov, D Botov",
+    "venue": "2025 IEEE/ACM Second IDE Workshop (IDE)",
+    "link": ""
+  },
+  {
+    "id": "6",
+    "date": "2025",
+    "title": "Themisto: Jupyter-Based Runtime Benchmark",
+    "authors": "K Grotov, S Titov",
+    "venue": "ICLR 2025, The 3rd Workshop on Deep Learning for Code",
+    "link": "https://arxiv.org/abs/2504.12365",
+    "featured": true
+  },
+  {
+    "id": "7",
+    "date": "2025",
+    "title": "Tailor-Made Metasurface Camouflage",
+    "authors": "M Tsukerman, K Grotov, A Mikhailovskaya, P Bezrukov, S Geyman, et al.",
+    "venue": "arXiv preprint arXiv:2504.00620",
+    "link": "https://arxiv.org/abs/2504.00620"
+  },
+  {
+    "id": "8",
+    "date": "2025",
+    "title": "3D evolutionarily designed metamaterials for scattering maximization",
+    "authors": "D Dobrykh, K Grotov, A Mikhailovskaya, D Vovchuk, V Tkach, M Khobzei, et al.",
+    "venue": "Nature Communications Engineering",
+    "link": ""
+  },
+  {
+    "id": "9",
+    "date": "2025",
+    "title": "Micro-Doppler-Coded Drone Identification via Resonant Tagging",
+    "authors": "D Vovchuk, M Khobzei, V Tkach, O Eliiashiv, O Tzidki, K Grotov, A Glam, et al.",
+    "venue": "IEEE Transactions on Antennas and Propagation",
+    "link": ""
+  },
+  {
+    "id": "10",
+    "date": "2025",
+    "title": "Superradiant Broadband Magneto-electric Arrays Empowered by Meta-learning",
+    "authors": "A Mikhailovskaya, K Grotov, D Vovchuk, D Dobrykh, C Rockstuhl, et al.",
+    "venue": "IEEE Transactions on Antennas and Propagation",
+    "link": "https://ieeexplore.ieee.org/document/10832513",
+    "featured": true
+  },
+  {
+    "id": "11",
+    "date": "2024",
+    "title": "Debug Smarter, Not Harder: AI Agents for Error Resolution in Computational Notebooks",
+    "authors": "K Grotov, A Borzilov, M Krivobok, T Bryksin, Y Zharov",
+    "venue": "EMNLP 2024",
+    "link": "https://arxiv.org/abs/2410.14393",
+    "featured": true
+  },
+  {
+    "id": "12",
+    "date": "2024",
+    "title": "Micro-Doppler Encoding for Long-Range Drone Monitoring",
+    "authors": "D Vovchuk, M Khobzei, V Tkach, O Eliiashiv, O Tzidki, K Grotov, et al.",
+    "venue": "2024 Eighteenth International Congress on Artificial Materials for Novel Wave Phenomena",
+    "link": ""
+  },
+  {
+    "id": "13",
+    "date": "2024",
+    "title": "Hidden Gems in the Rough: Computational Notebooks as an Uncharted Oasis for IDEs",
+    "authors": "S Titov, K Grotov, A Prasad S. Venkatesh",
+    "venue": "ICSE'24 The 1st IDE Workshop",
+    "link": "https://arxiv.org/abs/2402.13739"
+  },
+  {
+    "id": "14",
+    "date": "2024",
+    "title": "Untangling Knots: Leveraging LLM for Error Resolution in Computational Notebooks",
+    "authors": "K Grotov, S Titov, Y Zharov, T Bryksin",
+    "venue": "CHI'24 The 1st Workshop Human-Notebook Interactions",
+    "link": "https://arxiv.org/abs/2405.01559"
+  },
+  {
+    "id": "15",
+    "date": "2023",
+    "title": "Coronavirus-like All-angle All-polarization Broadband Scatterer",
+    "authors": "A Mikhailovskaya, D Vovchuk, K Grotov, DS Kolchanov, D Dobrykh, et al.",
+    "venue": "Nature Communications Engineering",
+    "link": ""
+  },
+  {
+    "id": "16",
+    "date": "2023",
+    "title": "Optimizing Duplicate Size Thresholds in IDEs",
+    "authors": "K Grotov, S Titov, A Suhinin, Y Golubev, T Bryksin",
+    "venue": "MSR'23",
+    "link": "https://arxiv.org/abs/2303.13247"
+  },
+  {
+    "id": "17",
+    "date": "2022",
+    "title": "Superradiant Scattering Limit for Arrays of Subwavelength Scatterers",
+    "authors": "A Mikhailovskaya, K Grotov, D Vovchuk, A Machnev, D Dobrykh, et al.",
+    "venue": "Physical Review Applied 18 (5), 054063",
+    "link": ""
+  },
+  {
+    "id": "18",
+    "date": "2022",
+    "title": "Genetically Designed Wire Bundle Superscatterers",
+    "authors": "K Grotov, D Vovchuk, S Kosulnikov, I Gorbenko, L Shaposhnikov, et al.",
+    "venue": "IEEE Transactions on Antennas and Propagation",
+    "link": "https://ieeexplore.ieee.org/document/9785502/",
+    "featured": true
+  },
+  {
+    "id": "19",
+    "date": "2022",
+    "title": "A Large-Scale Comparison of Python Code in Jupyter Notebooks and Scripts",
+    "authors": "K Grotov, S Titov, V Sotnikov, Y Golubev, T Bryksin",
+    "venue": "MSR 2022",
+    "award": "🏆 ACM SIGSOFT Distinguished Paper Award 🏆",
+    "link": "https://arxiv.org/abs/2203.16718",
+    "featured": true
+  },
+  {
+    "id": "20",
+    "date": "2022",
+    "title": "Circular Wire-bundle Superscatterer",
+    "authors": "S Kosulnikov, D Vovchuk, RE Noskov, A Machnev, V Kozlov, K Grotov, et al.",
+    "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer 279, 108065",
+    "link": ""
+  }
+]

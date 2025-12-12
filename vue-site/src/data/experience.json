@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "date": "2024 – now",
+    "company": "JetBrains Research",
+    "description": "ML Researcher – AI Agents & Planning Team"
+  },
+  {
+    "id": "2",
+    "date": "2023",
+    "company": "JetBrains Research",
+    "description": "ML Researcher – Alignment of LLMs"
+  },
+  {
+    "id": "3",
+    "date": "2021 – 2023",
+    "company": "JetBrains Research",
+    "description": "Intern Researcher – Machine Learning for Software Engineering Lab"
+  },
+  {
+    "id": "4",
+    "date": "2022",
+    "company": "ITMO University",
+    "description": "Researcher – Computational Physics & HPC Lab"
+  },
+  {
+    "id": "5",
+    "date": "2021 – 2022",
+    "company": "ITMO University",
+    "description": "Researcher – Theoretical Nanophotonics Lab"
+  }
+]
+

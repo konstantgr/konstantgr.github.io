@@ -1,0 +1,20 @@
+{
+  "name": "Konstantin Grotov",
+  "location": "Munich, Germany",
+  "title": "Machine Learning Researcher",
+  "titles": [
+    "Machine Learning Researcher",
+    "Computational Physicist"
+  ],
+  "bio": [
+    "I'm AI scientist with a background in computational physics, now working as a researcher in JetBrains. I've worked a lot on empirical software engineering, especially with focus on computational notebooks. Then, I've been involved into the LLM alignment for better code generation, RLHF (even without RL and HF) and AI agents.",
+    "Moreover, I'm very passionate about photography, data visualization and applying AI to physics."
+  ],
+  "image": "/images/me.jpg",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/grotov/",
+    "scholar": "https://scholar.google.com/citations?user=_CvGAcQAAAAJ&hl/",
+    "github": "https://github.com/konstantgr/"
+  }
+}
+
