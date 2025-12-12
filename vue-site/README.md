@@ -1,16 +1,3 @@
-# Konstantin Grotov - Personal Website
-
-A modern, maintainable personal website built with Vue.js, TypeScript, Tailwind CSS, and Shadcn-Vue components. This site showcases my experience as a Machine Learning Researcher and my research publications.
-
-## 📚 Documentation
-
-- **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
-- **[Migration Guide](MIGRATION_GUIDE.md)** - Migrate from old HTML site
-- **[Deployment Guide](DEPLOYMENT.md)** - Deploy to GitHub Pages
-- **[Checklist](CHECKLIST.md)** - Pre-deployment verification
-- **This README** - Full project documentation
-
----
 
 ## 🚀 Features
 
