@@ -5,7 +5,7 @@ interface CharInfo {
   isRevealed: boolean
 }
 
-export function useTypewriter(entries: string[], generationDuration = 1500, pauseAfterTyping = 5000, frameTime = 30) {
+export function useTypewriter(entries: string[], generationDuration = 1500, pauseAfterTyping = 5000) {
   const displayChars = ref<CharInfo[]>([])
   let currentEntryIndex = 0
   let revealedPositions: Set<number> = new Set()
@@ -92,7 +92,10 @@ export function useTypewriter(entries: string[], generationDuration = 1500, paus
         const charsToReveal = Math.max(0, targetRevealed - revealedNonSpaceCount)
         for (let i = 0; i < charsToReveal && unrevealedPositions.length > 0; i++) {
           const randomIndex = Math.floor(Math.random() * unrevealedPositions.length)
-          revealedPositions.add(unrevealedPositions[randomIndex])
+          const posToReveal = unrevealedPositions[randomIndex]
+          if (posToReveal !== undefined) {
+            revealedPositions.add(posToReveal)
+          }
           unrevealedPositions.splice(randomIndex, 1)
         }
         
@@ -132,7 +135,10 @@ export function useTypewriter(entries: string[], generationDuration = 1500, paus
         const charsToHide = Math.max(0, revealedArray.length - targetRemaining)
         for (let i = 0; i < charsToHide && revealedArray.length > 0; i++) {
           const randomIndex = Math.floor(Math.random() * revealedArray.length)
-          revealedPositions.delete(revealedArray[randomIndex])
+          const posToHide = revealedArray[randomIndex]
+          if (posToHide !== undefined) {
+            revealedPositions.delete(posToHide)
+          }
           revealedArray.splice(randomIndex, 1)
         }
         
@@ -154,7 +160,10 @@ export function useTypewriter(entries: string[], generationDuration = 1500, paus
     } else {
       // Transition state
       typeState = 0
-      displayChars.value = buildDisplayChars(entries[currentEntryIndex])
+      const nextText = entries[currentEntryIndex]
+      if (nextText !== undefined) {
+        displayChars.value = buildDisplayChars(nextText)
+      }
       timerId = window.setTimeout(typeWriter, 50)
     }
   }
