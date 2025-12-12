@@ -21,7 +21,7 @@
     "date": "2025",
     "title": "Adaptive Metasurface for Complex Inverse-design Scattering Control",
     "authors": "M Tsukerman, K Grotov, I Yusupov, P Ginzburg",
-    "venue": "2025 Nineteenth International Congress on Artificial Materials for Novel Wave Phenomena",
+    "venue": "Metamaterials 2025",
     "link": ""
   },
   {
@@ -37,7 +37,7 @@
     "date": "2025",
     "title": "Evolving the Computational Notebook: A Two-Dimensional Canvas for Enhanced Human-AI Interaction",
     "authors": "K Grotov, D Botov",
-    "venue": "2025 IEEE/ACM Second IDE Workshop (IDE)",
+    "venue": "ICSR 2025, The Second IDE Workshop",
     "link": ""
   },
   {
@@ -96,7 +96,7 @@
     "date": "2024",
     "title": "Micro-Doppler Encoding for Long-Range Drone Monitoring",
     "authors": "D Vovchuk, M Khobzei, V Tkach, O Eliiashiv, O Tzidki, K Grotov, et al.",
-    "venue": "2024 Eighteenth International Congress on Artificial Materials for Novel Wave Phenomena",
+    "venue": "Metamaterials 2024",
     "link": ""
   },
   {
@@ -104,7 +104,7 @@
     "date": "2024",
     "title": "Hidden Gems in the Rough: Computational Notebooks as an Uncharted Oasis for IDEs",
     "authors": "S Titov, K Grotov, A Prasad S. Venkatesh",
-    "venue": "ICSE'24 The 1st IDE Workshop",
+    "venue": "ICSE 2024, The 1st IDE Workshop",
     "link": "https://arxiv.org/abs/2402.13739"
   },
   {
@@ -112,7 +112,7 @@
     "date": "2024",
     "title": "Untangling Knots: Leveraging LLM for Error Resolution in Computational Notebooks",
     "authors": "K Grotov, S Titov, Y Zharov, T Bryksin",
-    "venue": "CHI'24 The 1st Workshop Human-Notebook Interactions",
+    "venue": "CHI 2024, The 1st Workshop Human-Notebook Interactions",
     "link": "https://arxiv.org/abs/2405.01559"
   },
   {
@@ -128,7 +128,7 @@
     "date": "2023",
     "title": "Optimizing Duplicate Size Thresholds in IDEs",
     "authors": "K Grotov, S Titov, A Suhinin, Y Golubev, T Bryksin",
-    "venue": "MSR'23",
+    "venue": "MSR 2023",
     "link": "https://arxiv.org/abs/2303.13247"
   },
   {
@@ -136,7 +136,7 @@
     "date": "2022",
     "title": "Superradiant Scattering Limit for Arrays of Subwavelength Scatterers",
     "authors": "A Mikhailovskaya, K Grotov, D Vovchuk, A Machnev, D Dobrykh, et al.",
-    "venue": "Physical Review Applied 18 (5), 054063",
+    "venue": "Physical Review Applied",
     "link": ""
   },
   {
@@ -163,7 +163,7 @@
     "date": "2022",
     "title": "Circular Wire-bundle Superscatterer",
     "authors": "S Kosulnikov, D Vovchuk, RE Noskov, A Machnev, V Kozlov, K Grotov, et al.",
-    "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer 279, 108065",
+    "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
     "link": ""
   }
 ]
