@@ -9,11 +9,13 @@
             </h1>
             <div id="typewriter" class="font-jetbrains text-lg mb-8">
               <span class="font-semibold">
-                <span 
-                  v-for="(charInfo, index) in displayChars" 
+                <span
+                  v-for="(token, index) in displayTokens"
                   :key="index"
-                  :class="{ 'text-muted-foreground opacity-40': !charInfo.isRevealed }"
-                >{{ charInfo.char }}</span>
+                  class="token-chip"
+                  :style="{ backgroundColor: token.color }"
+                >{{ token.text }}</span>
+                <span v-if="displayTokens.length === 0">&#8203;</span>
               </span>
               <br>
               <span class="text-muted-foreground">{{ profile.location }}</span>
@@ -45,12 +47,12 @@
 </template>
 
 <script setup lang="ts">
-import { useTypewriter } from '@/composables/useTypewriter'
+import { useAutoregressive } from '@/composables/useAutoregressive'
 import SelectedPapers from '@/components/SelectedPapers.vue'
 import profileData from '@/data/profile.json'
 
 const profile = profileData
-const { displayChars } = useTypewriter(profile.titles)
+const { displayTokens } = useAutoregressive(profile.titles)
 </script>
 
 <style scoped>
@@ -59,6 +61,12 @@ const { displayChars } = useTypewriter(profile.titles)
     flex-direction: column-reverse;
     gap: 0;
   }
+}
+
+.token-chip {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0;
 }
 </style>
 

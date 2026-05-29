@@ -7,8 +7,8 @@
     "Computational Physicist"
   ],
   "bio": [
-    "I'm AI scientist with a background in computational physics, now working as a researcher in JetBrains. I've worked a lot on empirical software engineering, especially with focus on computational notebooks. Then, I've been involved into the LLM alignment for better code generation, RLHF (even without RL and HF) and AI agents.",
-    "Moreover, I'm very passionate about photography, data visualization and applying AI to physics."
+    "I'm a Senior ML Researcher at JetBrains Research. My main focus is reinforcement learning for training software engineering agents. Before that, I worked on RLHF alignment for code generation models, AI agents for computational notebooks, and empirical software engineering.",
+    "I also have a background in theoretical and computational physics, where I worked on metamaterial design and nanophotonics. I'm passionate about photography, data visualization, and applying AI to physics."
   ],
   "image": "/images/me.jpg",
   "social": {

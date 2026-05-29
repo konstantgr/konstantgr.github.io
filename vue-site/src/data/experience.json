@@ -3,7 +3,7 @@
     "id": "1",
     "date": "2024 – now",
     "company": "JetBrains Research",
-    "description": "ML Researcher – AI Agents & Planning Team"
+    "description": "Senior ML Researcher – AI Agents & Planning Team"
   },
   {
     "id": "2",
@@ -19,6 +19,12 @@
   },
   {
     "id": "4",
+    "date": "2022 – 2023",
+    "company": "Tel Aviv University",
+    "description": "Visiting Researcher – School of Electrical Engineering, under supervision of Prof. Pavel Ginzburg"
+  },
+  {
+    "id": "4b",
     "date": "2022",
     "company": "ITMO University",
     "description": "Researcher – Computational Physics & HPC Lab"
