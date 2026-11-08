@@ -1,39 +1,105 @@
-[
-  {
-    "id": "1",
-    "date": "2024 – now",
-    "company": "JetBrains Research",
-    "description": "Senior ML Researcher – AI Agents & Planning Team"
-  },
-  {
-    "id": "2",
-    "date": "2023",
-    "company": "JetBrains Research",
-    "description": "ML Researcher – Alignment of LLMs"
-  },
-  {
-    "id": "3",
-    "date": "2021 – 2023",
-    "company": "JetBrains Research",
-    "description": "Intern Researcher – Machine Learning for Software Engineering Lab"
-  },
-  {
-    "id": "4",
-    "date": "2022 – 2023",
-    "company": "Tel Aviv University",
-    "description": "Visiting Researcher – School of Electrical Engineering, under supervision of Prof. Pavel Ginzburg"
-  },
-  {
-    "id": "4b",
-    "date": "2022",
-    "company": "ITMO University",
-    "description": "Researcher – Computational Physics & HPC Lab"
-  },
-  {
-    "id": "5",
-    "date": "2021 – 2022",
-    "company": "ITMO University",
-    "description": "Researcher – Theoretical Nanophotonics Lab"
-  }
-]
-
+{
+  "summary": "Researcher in reinforcement learning for LLM agents, ==tech-leading a team of research engineers== within a 10-person RL group at JetBrains Research where I mid-train and RL-align models ==from 1B to 480B parameters== for agentic software engineering, with hands-on experience from reward design to multi-node training infrastructure. ==20+ publications== across ML and physics venues, including ICLR, NeurIPS, EMNLP, and others.",
+  "skills": [
+    { "label": "Languages", "items": "Python, Kotlin, SQL" },
+    { "label": "ML stack", "items": "PyTorch, VeRL, Megatron-LM, NeMo RL" },
+    { "label": "Focus", "items": "Post-training, RL for agents" },
+    { "label": "Infra", "items": "Kubernetes, AWS, W&B" }
+  ],
+  "work": [
+    {
+      "org": "JetBrains Research",
+      "roles": [
+        {
+          "title": "Senior Researcher",
+          "unit": "ML Research Division",
+          "date": "March 2023 – Present",
+          "bullets": [
+            {
+              "label": "Team",
+              "text": "==Technical lead== of a team of research engineers within a 10-person RL group. ==Accountable for the team's research direction== and the execution of individual projects, and in charge of the technical stack across them: algorithm research, reward shaping, and multi-node training infrastructure (PyTorch, VeRL, Megatron-LM, NeMo RL)."
+            },
+            {
+              "label": "Code world models",
+              "text": "Improving code comprehension of LLMs for use as code world models in agentic SWE workflows. The work spans three directions: ==developing benchmarks== for code comprehension, ==researching linear probes== on hidden states and decision models, and RL training for reasoning and tool use, aimed at codebase comprehension and efficient SWE task solving."
+            },
+            {
+              "label": "SWE routing models",
+              "text": "Trained step-wise 4B–8B routing LLMs with RL, designing rewards that trade reasoning cost against quality; ==shifted the Pareto frontier across major SWE agent scaffolds== by reasoning at every step about which agentic model should handle it."
+            },
+            {
+              "label": "Environment-setup agents",
+              "text": "Post-trained 1B–32B agentic LLMs (SFT + RL) to configure arbitrary repositories; adapted RL algorithms, designed reward shaping, and built Kubernetes evaluation infrastructure, reaching ==state-of-the-art setup quality== and scaling internal SWE benchmarks to hundreds of unique containers for training and evaluation.",
+              "link": { "text": "PIPer", "url": "https://arxiv.org/abs/2509.25455" }
+            },
+            {
+              "label": "Code completion",
+              "text": "Post-trained 1B–4B fill-in-the-middle LLMs for code completion with PPO, DPO, and FIM-specific preference-learning variants, ==cutting hallucinations in enterprise codebases== and raising production compilation rates."
+            }
+          ]
+        },
+        {
+          "title": "Researcher",
+          "unit": "Machine Learning for Software Engineering Laboratory",
+          "date": "Jul 2021 – March 2023",
+          "bullets": [
+            {
+              "label": "Notebook ML",
+              "text": "Built notebook ML systems for the Datalore and DataSpell teams, from code analysis and user-behavior models to LLM fine-tuning for cell-level completion, ==shipping four production features==."
+            },
+            {
+              "label": "Open-source tooling",
+              "text": "Architected an open-source library for analyzing a 10 TB corpus of Jupyter notebooks; research built on it won the ==ACM SIGSOFT Distinguished Paper Award==."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "org": "ITMO University",
+      "roles": [
+        {
+          "title": "Researcher",
+          "unit": "Theoretical Nanophotonics Laboratory",
+          "date": "Aug 2021 – Dec 2023",
+          "bullets": [
+            {
+              "text": "Applied evolutionary optimization and physics-informed neural networks to meta-material design, ==surpassing industry-accepted scattering limits==; contributed to ==10+ publications in Nature group, IEEE, and APS journals==."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "org": "Tel Aviv University",
+      "roles": [
+        {
+          "title": "Visiting Researcher",
+          "unit": "School of Electrical Engineering, under Prof. Pavel Ginzburg",
+          "date": "2022 – 2023",
+          "bullets": []
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "org": "ITMO University, AI Talent Hub",
+      "place": "Saint Petersburg, Russia",
+      "date": "2023 – 2025",
+      "degree": "Master of Science in Artificial Intelligence, Summa Cum Laude"
+    },
+    {
+      "org": "Constructor University",
+      "place": "Bremen, Germany",
+      "date": "2022 – 2023",
+      "degree": "Bachelor of Science in Physics, minor Computer Science"
+    },
+    {
+      "org": "ITMO University",
+      "place": "Saint Petersburg, Russia",
+      "date": "2019 – 2023",
+      "degree": "Bachelor of Science in Physics & Engineering, Math. Modeling and Computational Physics"
+    }
+  ]
+}

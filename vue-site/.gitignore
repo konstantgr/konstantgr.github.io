@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local-only scratch posts / templates (not published)
+_local/
+
+# Unpublished drafts (dev-server only, never built or committed)
+src/drafts/

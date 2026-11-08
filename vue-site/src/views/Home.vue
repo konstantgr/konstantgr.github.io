@@ -39,6 +39,17 @@
       </div>
     </section>
 
+    <!-- Recent blog posts -->
+    <div v-if="recentPosts.length" class="container max-w-[1100px] mx-auto px-5 pb-16">
+      <h2 class="scroll-m-20 text-2xl font-semibold tracking-tight mb-6">Recent Posts</h2>
+      <PostList :posts="recentPosts" />
+      <div class="mt-6 text-center">
+        <router-link to="/blog" class="inline-flex items-center gap-2 font-semibold hover:underline">
+          All posts &rarr;
+        </router-link>
+      </div>
+    </div>
+
     <!-- Selected Papers & Awards Section -->
     <div class="container max-w-[1100px] mx-auto px-5 pb-16">
       <SelectedPapers />
@@ -49,9 +60,12 @@
 <script setup lang="ts">
 import { useAutoregressive } from '@/composables/useAutoregressive'
 import SelectedPapers from '@/components/SelectedPapers.vue'
+import PostList from '@/components/PostList.vue'
+import { getRecentPosts } from '@/lib/blog'
 import profileData from '@/data/profile.json'
 
 const profile = profileData
+const recentPosts = getRecentPosts(3)
 const { displayTokens } = useAutoregressive(profile.titles)
 </script>
 

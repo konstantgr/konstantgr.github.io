@@ -24,6 +24,13 @@
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
+                <NavigationMenuLink as-child :active="$route.path.startsWith('/blog')">
+                  <router-link to="/blog">
+                    Blog
+                  </router-link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
                 <NavigationMenuLink as-child :active="$route.path === '/experience'">
                   <router-link to="/experience">
                     Experience

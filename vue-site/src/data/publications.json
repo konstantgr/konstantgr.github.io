@@ -1,5 +1,22 @@
 [
   {
+    "id": "new1",
+    "date": "2026",
+    "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+    "authors": "K Grotov, V Malykh",
+    "venue": "EMNLP 2026 · NeurIPS 2026 Workshop Verify-Agents",
+    "link": "https://arxiv.org/abs/2609.05274",
+    "featured": true
+  },
+  {
+    "id": "new2",
+    "date": "2026",
+    "title": "Lengthy Road to Uncertainty: Estimating Confidence of Black-Box Agentic Text-to-SQL",
+    "authors": "M Hostnik, E Koynov, D V Mikhailovskii, K Grotov, R Kurbanov",
+    "venue": "NeurIPS 2026 Workshop Verify-Agents",
+    "link": ""
+  },
+  {
     "id": "1",
     "date": "2025",
     "title": "Diffusion-Based Electromagnetic Inverse Design of Scattering Structured Media",
@@ -26,11 +43,12 @@
   },
   {
     "id": "4",
-    "date": "2025",
+    "date": "2026",
     "title": "Observing Fine-Grained Changes in Jupyter Notebooks During Development Time",
     "authors": "S Titov, K Grotov, C Sarasua, Y Golubev, D Ramasamy, A Bacchelli, et al.",
-    "venue": "arXiv preprint arXiv:2507.15831",
-    "link": "https://arxiv.org/abs/2507.15831"
+    "venue": "Journal of Systems and Software · ASE 2026 (Oral)",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0164121226002165",
+    "featured": true
   },
   {
     "id": "5",
@@ -87,7 +105,7 @@
     "date": "2024",
     "title": "Debug Smarter, Not Harder: AI Agents for Error Resolution in Computational Notebooks",
     "authors": "K Grotov, A Borzilov, M Krivobok, T Bryksin, Y Zharov",
-    "venue": "EMNLP 2024",
+    "venue": "EMNLP 2024 (Oral)",
     "link": "https://arxiv.org/abs/2410.14393",
     "featured": true
   },
@@ -153,7 +171,7 @@
     "date": "2022",
     "title": "A Large-Scale Comparison of Python Code in Jupyter Notebooks and Scripts",
     "authors": "K Grotov, S Titov, V Sotnikov, Y Golubev, T Bryksin",
-    "venue": "MSR 2022",
+    "venue": "MSR 2022 (Oral)",
     "award": "🏆 ACM SIGSOFT Distinguished Paper Award 🏆",
     "link": "https://arxiv.org/abs/2203.16718",
     "featured": true
