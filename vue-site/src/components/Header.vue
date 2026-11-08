@@ -1,9 +1,9 @@
 <template>
   <header class="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border transition-colors duration-300">
-    <div class="container max-w-[1100px] mx-auto px-5 py-4">
-      <div class="flex justify-between items-center">
+    <div class="container max-w-[1100px] mx-auto px-5 py-2 sm:py-4">
+      <div class="flex flex-wrap sm:flex-nowrap justify-between items-center gap-x-4 gap-y-1">
         <div id="branding">
-          <h1 class="scroll-m-20 text-xl font-semibold tracking-tight">
+          <h1 class="scroll-m-20 text-xl font-semibold tracking-tight whitespace-nowrap">
             <router-link 
               to="/" 
               class="text-foreground no-underline hover:text-muted-foreground transition-colors"
@@ -13,9 +13,11 @@
           </h1>
         </div>
         
-        <div class="flex items-center gap-4">
-          <NavigationMenu>
-            <NavigationMenuList>
+        <ThemeToggle class="sm:order-3" />
+
+        <div class="order-last w-full sm:order-2 sm:w-auto sm:ml-auto">
+          <NavigationMenu class="max-w-full sm:max-w-max">
+            <NavigationMenuList class="w-full justify-between sm:w-auto sm:justify-center">
               <NavigationMenuItem>
                 <NavigationMenuLink as-child :active="$route.path === '/'">
                   <router-link to="/">
@@ -46,8 +48,6 @@
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
-          
-          <ThemeToggle />
         </div>
       </div>
     </div>

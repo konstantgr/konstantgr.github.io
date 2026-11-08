@@ -32,7 +32,7 @@
             <img 
               :src="profile.image" 
               :alt="profile.name" 
-              class="w-full max-w-[280px] h-auto rounded-2xl shadow-xl border border-border"
+              class="w-full max-w-[200px] md:max-w-[280px] mx-auto h-auto rounded-2xl shadow-xl border border-border"
             >
           </div>
         </div>
@@ -70,13 +70,6 @@ const { displayTokens } = useAutoregressive(profile.titles)
 </script>
 
 <style scoped>
-@media screen and (max-width: 768px) and (orientation: portrait) {
-  .flex {
-    flex-direction: column-reverse;
-    gap: 0;
-  }
-}
-
 .token-chip {
   display: inline-block;
   border-radius: 3px;
